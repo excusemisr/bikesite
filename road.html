@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Bikes - Bike Scotland</title>
+    <style>
+        /* Modern Reset & Typography */
+        @import url('https://googleapis.com');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #141923 0%, #080a0f 100%);
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            overflow-x: hidden;
+        }
+
+        /* Godly Typography */
+        h1 {
+            font-family: 'Syncopate', sans-serif;
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            background: linear-gradient(135deg, #00ffcc 0%, #0077ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0px 10px 30px rgba(0, 255, 204, 0.15);
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        /* Cinematic Content Box */
+        .content-container {
+            max-width: 650px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            padding: 30px;
+            border-radius: 24px;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #b0c4de;
+            font-weight: 300;
+        }
+
+        p strong {
+            color: #00ffcc;
+            font-weight: 600;
+        }
+
+        /* Epic Image Container */
+        .image-container {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7), 
+                        0 0 50px rgba(0, 255, 204, 0.1);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            margin-bottom: 50px;
+        }
+
+        .image-container:hover {
+            transform: scale(1.03) translateY(-5px);
+            box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.8), 
+                        0 0 60px rgba(0, 119, 255, 0.25);
+        }
+
+        img {
+            display: block;
+            object-fit: cover;
+            width: 600px;
+            height: 350px;
+            max-width: 100%;
+            filter: brightness(0.95) contrast(1.05);
+        }
+
+        /* High-End Back Button */
+        .back-btn {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 14px 35px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 100px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .back-btn:hover {
+            color: #080a0f;
+            background: #00ffcc;
+            border-color: #00ffcc;
+            box-shadow: 0 0 30px rgba(0, 255, 204, 0.4);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Road Bikes</h1>
+    
+    <div class="content-container">
+        <p>Looking for an environmentally friendly way of getting to work with European chic? Don’t want to buy lycra and a gel saddle? Then look no further than our replica <strong>Dutch road bikes</strong>. Suitable for all types of green commuters who don’t want to break the sound barrier, our road bikes start at only <strong>£150</strong>.</p>
+    </div>
+    
+    <div class="image-container">
+        <img src="RoadBike.jpg" alt="Premium Road Bike">
+    </div>
+
+    <a href="Home.html" class="back-btn">← Back Home</a>
+
+</body>
+</html>
